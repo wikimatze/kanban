@@ -1,0 +1,60 @@
+%% config
+\def\home{../../styles}
+
+%% documentclass
+\input{\home/documentclass_normal_oneside}
+
+%% generell-styling
+\input{\home/style_proggen}
+
+%% meta-tags for pdf
+\newcommand{\pdfauthor}{Matthias Günther}
+\newcommand{\pdftitle}{Kanban}
+\newcommand{\pdfsubject}{Aufzeichnungen zur Fortbildung}
+\newcommand{\pdfkeywords}{ruby}
+\newcommand{\motto}{Kanban ist eventuell besser als Scrum}
+\newcommand{\tutor}{}
+\newcommand{\disclaimer}{(Die Autoren übernehmen keine Garantie und Haftung
+für die Korrektheit des Skriptes. Das Skript ist unter den Namen von Matthias
+Günther veröffentlicht.)}
+\newcommand{\publisher}{Der Helex-Matze Verlag $\sum\limits_{i=1}^{n}i$}
+\newcommand{\pdfemail}{matthias.guenther@wikimatze.de}
+\newcommand{\correctiontext}{Kommentare/Korrekturen an}
+\newcommand{\homepagetext}{Homepage}
+\newcommand{\homepage}{wikimatze.de}
+\newcommand{\coverdisclaimer}{Copyright Skript-Covers}
+\newcommand{\covercopyright}{\textsc{Ubisoft} (\url{ubi.com})}
+
+%% fancy-header
+\input{\home/style_header_oneside}
+
+%% setting the infos for the pdf
+\input{\home/info_hypersetup}
+
+%% environments
+\input{\home/environments_normal}
+\input{\home/environments_mathe}
+
+%% cover
+\input{\home/style_cover}
+
+\begin{document}
+\input{\home/style_starting_document_without_cover}
+
+\section{Kanban}
+Hier steht was ...
+
+\begin{itemize}
+  \item ist ein Vorgehen um evolutionäre Änderungen herbeizuführen
+  \item \enquote{One size fits all} Entwicklungsmethoden funktionieren nicht:
+    \begin{Beschreibungfett}[Projekte]
+      \item [Projekte] Fähigkeiten, Erfahrungen, Leistungsvermögen
+      \item [Projekte] Budget, Zeitpläne, Umfang, Risikoprofile
+      \item [Orgs] Zielmarkt, Wertschöpfungsketten
+    \end{Beschreibungfett}
+    jedes Team zeichnet sich durch ein individuelles Bündchen von Möglichkeiten, Fähigkeiten und
+    Erfahrungen aus!
+\end{itemize}
+
+\end{document}
+
